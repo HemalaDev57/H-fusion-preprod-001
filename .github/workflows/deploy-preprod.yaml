@@ -1,6 +1,6 @@
 name: register-artifact-from-github                                                                                                                                                                                                               
 on:                                                                                                                                                                                                                                               
-    push                                                                                                                                                                                                                                            
+    [push, pull_request]                                                                                                                                                                                                                                            
 jobs:                                                                                                                                                                                                                                             
     register-artifact:                                                                                                                                                                                                                              
       runs-on: ubuntu-latest
